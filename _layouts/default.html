@@ -13,11 +13,11 @@
 
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
-    <header class="header">
+    <header class="inner-text">
         <a id="forkme_banner" href="https://github.com/delftdata/reproducibility-data-integration-tasks">View on GitHub</a>
 
-        <h1 class="title" id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-        <h2 class="tagline" id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        <h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
+        <h2 class="tagline">{{ site.description | default: site.github.project_tagline }}</h2>
     </header>
 </div>
 
@@ -30,7 +30,7 @@
 
 <!-- FOOTER  -->
 <div id="footer_wrap" class="outer">
-    <footer class="inner">
+    <footer class="inner-text">
         {% if site.github.is_project_page %}
         <p class="copyright">Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}

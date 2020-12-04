@@ -3,13 +3,13 @@
 
 @import "{{ site.theme }}";
 
-.header {
+.inner-text {
   max-width: 940px;
   padding: 20px 10px;
   margin: 0 auto;
 }
 
-.outer {
+#footer_wrap {
   background-color: pink!important;
 }
 
@@ -35,4 +35,8 @@
 
 #reproducibility-checklist {
   margin-top: 1em!important;
+}
+
+ul {
+  list-style: none!important;
 }
