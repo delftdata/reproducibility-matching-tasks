@@ -2,7 +2,13 @@
 
 @import "{{ site.theme }}";
 .inner {
-  max-width: 840px;
+  max-width: 940px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.outer {
+  background-color: pink;
 }
 
 #header_wrap .inner {
@@ -21,5 +27,25 @@
 }
 
 #header_wrap {
-  background: #1eb6b6;
+  background: pink;
+}
+
+#project_title {
+  color: black;
+  font-size: 4em;
+  font-weight: 700;
+  text-align: center;
+  background: none;
+}
+
+#project_tagline {
+  color: white;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  background: none;
+}
+
+#reproducibility-checklist {
+  margin-top: 1em;
 }
