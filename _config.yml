@@ -1,0 +1,6 @@
+theme: jekyll-theme-slate
+
+title: "Reproducibility in Data Integration Through the Looking Glass"
+description: "Webpage containing information on Delft-Data's paper about reproducibility in data integration"
+
+show_downloads: false
