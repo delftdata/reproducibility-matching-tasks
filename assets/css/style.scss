@@ -31,6 +31,7 @@
   font-weight: 300;
   text-align: center;
   background: none;
+  text-shadow: #111 0px 0px 6px;
 }
 
 #reproducibility-checklist {
@@ -43,4 +44,12 @@ ul {
 
 footer p {
   color: black!important;
+}
+
+footer a {
+  text-shadow: #111 0px 0px 5px !important;
+}
+
+#main_content_wrap {
+  border: none!important;
 }
